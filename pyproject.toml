@@ -1,7 +1,7 @@
 [project]
 name = "cancer-prediction-tm763"
 version = "0.1.0"
-description = "cancert prediction package library"
+description = "cancer prediction package library"
 authors = [
     {name = "murphytarra",email = "68056855+murphytarra@users.noreply.github.com"}
 ]
@@ -17,6 +17,7 @@ dependencies = [
 ]
 
 [tool.poetry]
+packages = [{ include = "cancer-prediction-tm763" }]
 
 [tool.poetry.group.dev.dependencies]
 isort = "6.0.1"
