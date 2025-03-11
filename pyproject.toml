@@ -13,7 +13,7 @@ dependencies = [
     "scikit-learn (>=1.6.1,<2.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
     "numpy (>=2.2.3,<3.0.0)",
-    "streamlit (>=1.43.1,<2.0.0)"
+    "streamlit"
 ]
 
 [tool.poetry]
